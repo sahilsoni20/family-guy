@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Family Guy - Next.Js FullStack web app
 
-## Getting Started
+## ⚙️Technology Used 
+- Next JS
+- TypeScript
+- Tailwind CSS
 
-First, run the development server:
+## 💡What I Learn ?
+I started this repository for learning purposes. I have learned about what Next.js is, its file structure, and the different routing systems like API routing and UI routing. I have also become familiar with Server-side Rendering (SSR), Static Site Generation (SSG), and dynamic routing.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### About this Project 
+You can start by creating the file structure, which is the most important part of a Next.js project. After understanding the file structure, you can begin by making component files like `Navigation` and `Container`. We will use the Container component throughout the UI routing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The API folder is crucial for API routing. Square brackets in folder names denote dynamic routing. We store all our data in the Data folder. For a better understanding of API routing, you can check the routes as you create them (refer to `Request.rest` inside the utils folder).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚒️Features 
+- Dynamic routing with Next.js
+- Server-side Rendering (SSR)
+- Static Site Generation (SSG)
+- API routes for handling server-side logic
+- Styled with Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 🚦Running Process
+To run this project you need to follow this steps :-
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository to your local machine.
+2. Run npm install or yarn add in the project directory to install the required dependencies.
+3. To run - npm run start or yarn start to get the project started.
+4. Open http://localhost:3000 (or address shown in your console) in your web browser to view app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> or you can use this link - https://.vercel.app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📽️Documentation
