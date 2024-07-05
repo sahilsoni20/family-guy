@@ -3,13 +3,19 @@ import { getAllCharacters } from "@/lib/characters";
 import Image from "next/image";
 import Link from "next/link";
 
+type Character = {
+  id: string;
+  slug: string;
+  avatar: string;
+};
+
 export default async function HomePage() {
-  const data = await getAllCharacters();
+  const data: { characters: Character[] } = await getAllCharacters();
 
   return (
     <main>
       <Container className="px-5 w-full max-w-screen-md m-auto grid grid-cols-2 gap-1 py-5 md:grid-cols-3 lg:grid-cols-4">
-        {data?.characters?.map((item:any) => {
+        {data?.characters?.map((item: Character) => {
           return (
             <Link
               href={`/characters/${item.slug}`}
