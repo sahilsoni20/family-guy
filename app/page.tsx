@@ -9,7 +9,7 @@ export default async function HomePage() {
   return (
     <main>
       <Container className="px-5 w-full max-w-screen-md m-auto grid grid-cols-2 gap-1 py-5 md:grid-cols-3 lg:grid-cols-4">
-        {data?.characters?.map((item) => {
+        {data?.characters?.map((item:any) => {
           return (
             <Link
               href={`/characters/${item.slug}`}
