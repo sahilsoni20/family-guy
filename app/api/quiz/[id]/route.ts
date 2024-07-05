@@ -23,5 +23,3 @@ export async function GET(
     });
   }
 }
-
-// to test the api: http://localhost:3000/api/quiz/CfQnf3lH56

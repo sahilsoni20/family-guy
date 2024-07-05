@@ -10,14 +10,3 @@ export async function getRadomQuizQuestion() {
 
   return data.json();
 }
-
-export async function getQuizQuestion(id: string) {
-  console.log('id:', id); // Log the id to debug
-  const data = await fetch(`${endpoint}/quiz/${id}`);
-
-  if (!data.ok) {
-    throw new Error('Failed to fetch data');
-  }
-
-  return data.json();
-}
