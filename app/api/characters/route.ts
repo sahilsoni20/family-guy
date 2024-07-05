@@ -1,4 +1,4 @@
-//we are using route.ts that means its an API route 
+//we are using route.ts that means its an API route
 
 import { NextResponse } from 'next/server'
 import characters from '@/data/characters.json'
