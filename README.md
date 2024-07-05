@@ -29,6 +29,6 @@ To run this project you need to follow this steps :-
 3. To run - npm run start or yarn start to get the project started.
 4. Open http://localhost:3000 (or address shown in your console) in your web browser to view app.
 
-> or you can use this link - https://.vercel.app
+> or you can use this link - https://next-fcc-familyguy.vercel.app
 
 ## 📽️Documentation
